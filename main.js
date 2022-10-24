@@ -55,22 +55,25 @@ if(resultado < 100){
 }
 else if(resultado >100 && resultado < 300){
     var descuento = 0.05;
-    var total = 0;
-    total = resultado * descuento;
-    console.log("El total es de : " + total);
-    break;
+    var total1 = 0;
+    var total2 = 0;
+    total1 = resultado * descuento;
+    total2 = resultado - total1;
+    console.log("El total es de : " + total2);
 }else if(resultado >300 && resultado < 500){
     var descuento = 0.1;
-    var total = 0;
-    total = resultado * descuento;
-    console.log("El total es de : " + total);
-    break;
+    var total1 = 0;
+    var total2 = 0;
+    total1 = resultado * descuento;
+    total2 = resultado - total1;
+    console.log("El total es de : " + total2);
 }else if(resultado >500){
     var descuento = 0.15;
-    var total = 0;
-    total = resultado * descuento;
-    console.log("El total es de : " + total);
-    break;
+    var total1 = 0;
+    var total2 = 0;
+    total1 = resultado * descuento;
+    total2 = resultado - total1;
+    console.log("El total es de : " + total2);
 }
 
 /** ej 5 */
